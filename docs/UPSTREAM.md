@@ -1,6 +1,6 @@
 # 上游版本管理
 
-本项目（[opop32165455/tts-jp-apple](https://github.com/opop32165455/tts-jp-apple)）改造自开源项目 [kapi2800/qwen3-tts-apple-silicon](https://github.com/kapi2800/qwen3-tts-apple-silicon)。本文说明如何保留上游原版，以及以后如何跟进上游的更新。
+本项目（[piplupp1/tts-jp-apple](https://github.com/piplupp1/tts-jp-apple)）改造自开源项目 [kapi2800/qwen3-tts-apple-silicon](https://github.com/kapi2800/qwen3-tts-apple-silicon)。本文说明如何保留上游原版，以及以后如何跟进上游的更新。
 
 ---
 
@@ -8,7 +8,7 @@
 
 | 项目 | 值 | 说明 |
 |---|---|---|
-| `origin` | `https://github.com/opop32165455/tts-jp-apple.git` | 自己的仓库，日常 push / pull 都用它 |
+| `origin` | `https://github.com/piplupp1/tts-jp-apple.git` | 自己的仓库，日常 push / pull 都用它 |
 | `upstream` | `https://github.com/kapi2800/qwen3-tts-apple-silicon.git` | 上游仓库，只用来 fetch（push 地址已禁用，防止误推） |
 | `main` | 改造后的代码 | 日常开发分支 |
 | `upstream-main` | 跟踪 `upstream/main` | **只存放上游原版，不要在这个分支上改代码** |

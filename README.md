@@ -36,7 +36,7 @@
 ### 1. 安装
 
 ```bash
-git clone https://github.com/opop32165455/tts-jp-apple.git
+git clone https://github.com/piplupp1/tts-jp-apple.git
 cd tts-jp-apple
 
 # 推荐使用 uv；也可以用 python3.13 -m venv .venv
